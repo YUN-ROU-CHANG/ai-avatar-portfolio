@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -39,23 +39,12 @@
     .subtitle {
       font-size: 16px;
       color: #666;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       line-height: 1.6;
     }
 
-    .avatar-section {
-      margin-top: 40px;
-      padding: 30px;
-      background: #f9f9f9;
-      border-radius: 8px;
-      min-height: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
     .footer {
-      margin-top: 40px;
+      margin-top: 20px;
       font-size: 12px;
       color: #999;
     }
@@ -74,18 +63,16 @@
       Interaction Designer & UX Researcher<br>
       Ask me about my design work, research, and projects
     </p>
-
-    <div class="avatar-section">
-      <sv-agent
-        agentProfileId="01KZTWC51GP8YGS88R09Y7T9E8"
-        presentationMode="embedded"
-        apiKey="f052364c-0290-43fa-9cf4-8faf284d52aa"
-      ></sv-agent>
-    </div>
-
     <div class="footer">
-      <p>💡 Powered by Perxona AI Avatar</p>
+      <p>💡 Chat with my AI Avatar →</p>
     </div>
   </div>
+
+  <!-- Perxona AI Avatar Widget (Bottom Right) -->
+  <sv-agent
+    agentProfileId="01KZTWC51GP8YGS88R09Y7T9E8"
+    presentationMode="embedded"
+    apiKey="f052364c-0290-43fa-9cf4-8faf284d52aa"
+  ></sv-agent>
 </body>
 </html>
